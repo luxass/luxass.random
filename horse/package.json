@@ -1,0 +1,23 @@
+{
+  "name": "luxass.horse",
+  "type": "module",
+  "private": true,
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.9.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^3.3.0"
+  },
+  "devDependencies": {
+    "@astrojs/vercel": "^5.0.2",
+    "@types/node": "18",
+    "@unocss/reset": "^0.56.5",
+    "unocss": "^0.56.5"
+  }
+}

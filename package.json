@@ -1,0 +1,12 @@
+{
+  "name": "luxass.random",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.9.0",
+  "author": {
+    "name": "Lucas Nørgård",
+    "email": "lucasnrgaard@gmail.com",
+    "url": "https://luxass.dev"
+  },
+  "license": "MIT"
+}
