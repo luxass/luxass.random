@@ -8,5 +8,10 @@
     "email": "lucasnrgaard@gmail.com",
     "url": "https://luxass.dev"
   },
+  "workspaces": [
+    "beer",
+    "horse",
+    "random"
+  ],
   "license": "MIT"
 }
