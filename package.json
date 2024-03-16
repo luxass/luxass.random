@@ -2,16 +2,26 @@
   "name": "luxass.random",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.11.0",
   "author": {
     "name": "Lucas Nørgård",
     "email": "lucasnrgaard@gmail.com",
     "url": "https://luxass.dev"
   },
+  "packageManager": "pnpm@8.15.4",
   "workspaces": [
     "beer",
     "horse",
     "random"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@luxass/eslint-config": "^4.2.11",
+    "@types/node": "18",
+    "eslint": "^8.57.0",
+    "eslint-plugin-format": "^0.1.0",
+    "typescript": "^5.4.2"
+  }
 }

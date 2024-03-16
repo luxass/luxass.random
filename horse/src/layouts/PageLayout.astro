@@ -1,8 +1,8 @@
 ---
 export interface Props {
-  title: string;
-  description: string;
-  image?: string;
+  title: string
+  description: string
+  image?: string
 }
 
 const {
@@ -13,10 +13,10 @@ const {
       JSON.stringify({
         width: 300,
         height: 300,
-      })
-    )}`
+      }),
+    )}`,
   ),
-} = Astro.props;
+} = Astro.props
 ---
 
 <!doctype html>
@@ -51,7 +51,13 @@ const {
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={image} />
 
-    <link rel="preload" href="/fonts/inter.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link
+      rel="preload"
+      href="/fonts/inter.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <slot />

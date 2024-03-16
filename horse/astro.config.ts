@@ -1,6 +1,6 @@
-import { defineConfig } from 'astro/config';
-import vercel from "@astrojs/vercel/serverless";
-import unocss from "unocss/astro";
+import { defineConfig } from 'astro/config'
+import vercel from '@astrojs/vercel/serverless'
+import unocss from 'unocss/astro'
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,7 +10,7 @@ export default defineConfig({
     }),
   ],
   compressHTML: false,
-  output: "server",
+  output: 'server',
   adapter: vercel({
     webAnalytics: {
       enabled: true,
@@ -18,4 +18,4 @@ export default defineConfig({
     edgeMiddleware: true,
     functionPerRoute: false,
   }),
-});
+})
