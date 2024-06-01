@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.1.3",
+  "packageManager": "pnpm@9.1.4",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -14,20 +14,20 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
-    "@vercel/analytics": "^1.2.2",
-    "astro": "^4.5.5"
+    "@vercel/analytics": "^1.3.1",
+    "astro": "^4.9.2"
   },
   "devDependencies": {
-    "@astrojs/vercel": "^7.3.6",
-    "@luxass/eslint-config": "^4.2.11",
+    "@astrojs/vercel": "^7.6.0",
+    "@luxass/eslint-config": "^4.4.3",
     "@types/node": "18",
-    "@unocss/eslint-plugin": "^0.60.0",
-    "@unocss/reset": "^0.60.0",
-    "astro-eslint-parser": "^0.17.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-astro": "^0.34.0",
+    "@unocss/eslint-plugin": "^0.60.4",
+    "@unocss/reset": "^0.60.4",
+    "astro-eslint-parser": "^1.0.2",
+    "eslint": "^9.4.0",
+    "eslint-plugin-astro": "^1.2.0",
     "prettier-plugin-astro": "^0.14.0",
-    "typescript": "^5.4.2",
-    "unocss": "^0.60.0"
+    "typescript": "^5.4.5",
+    "unocss": "^0.60.4"
   }
 }
